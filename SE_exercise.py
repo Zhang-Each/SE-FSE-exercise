@@ -3,6 +3,7 @@ import random
 
 
 def single_exercise(problem):
+    print(problem['topic'])
     for j in problem['options']:
         print(j)
     print("请输入答案：")

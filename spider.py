@@ -29,7 +29,7 @@ for num in range(1, 37):
             problem = test_set[answer_set[i - 1] + 1: answer_set[i] + 1]
             topic = problem[0]
             answer = problem[-1][-1]
-            options = problem[0: -1]
+            options = problem[1: -1]
             dict_problem = {'topic': topic, 'answer': answer, 'options': options}
             problem_list.append(dict_problem)
     all_problem_set[num] = problem_list
